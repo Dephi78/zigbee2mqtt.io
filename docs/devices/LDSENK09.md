@@ -15,7 +15,7 @@ pageClass: device-page
 
 |     |     |
 |-----|-----|
-| Model | LDSENK09  |
+| Model | LDSENK09  (alias LDSENK17) |
 | Vendor  | [ADEO](/supported-devices/#v=ADEO)  |
 | Description | Security system key fob |
 | Exposes | action, linkquality |
@@ -35,7 +35,7 @@ pageClass: device-page
 Triggered action (e.g. a button click).
 Value can be found in the published state on the `action` property.
 It's not possible to read (`/get`) or write (`/set`) this value.
-The possible values are: `panic`, `disarm`, `arm_partial_zones`, `arm_all_zones`.
+The possible values are: `panic`, `disarm`, `arm_partial_zones` ('arm_day_zones' for LDSENK17), `arm_all_zones`.
 
 ### Linkquality (numeric)
 Link quality (signal strength).
